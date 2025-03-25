@@ -15,6 +15,8 @@ To run the Enhanced Question Bank Generator, you'll need Python 3.8 or higher in
 (Note: Use wsl and conda if on windows, saves stress)
 
 Improvements(-to be rewritten and explained by hand later):
+Designed to handle large pdfs, splits them into batches(words/pages) and generates questions and answers based on content every batch(words/pages) of content.
+
 Safety:
 Groq api keys are now stored in a .env file as opposed to plain text
 
