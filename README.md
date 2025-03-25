@@ -12,6 +12,8 @@ The application offers a comprehensive suite of features designed to create effe
 To run the Enhanced Question Bank Generator, you'll need Python 3.8 or higher installed on your system. The application requires a Groq API key for accessing the large language model used in question generation. For processing scanned PDF documents, Tesseract OCR is recommended but optional. All other dependencies are handled through the provided requirements file, including libraries for vector embedding, similarity search, PDF processing, and the web interface.
 ]
 
+(Note: Use wsl and conda if on windows, saves stress)
+
 Improvements(-to be rewritten and explained by hand later):
 Safety:
 Groq api keys are now stored in a .env file as opposed to plain text
