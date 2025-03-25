@@ -13,6 +13,9 @@ To run the Enhanced Question Bank Generator, you'll need Python 3.8 or higher in
 ]
 
 Improvements(-to be rewritten and explained by hand later):
+Safety:
+Groq api keys are now stored in a .env file as opposed to plain text
+
 Combined Q&A Pipeline:
 qagp.py now not only generates a question bank but also produces a corresponding answer bank automatically, whereas the original only created a question bank.
 Balanced Question Categories:
