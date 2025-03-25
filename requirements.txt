@@ -1,0 +1,13 @@
+gradio>=3.40.0
+faiss-cpu
+sentence-transformers
+numpy
+python-dotenv
+nest_asyncio
+groq>=0.5.0
+pdfplumber
+pytesseract
+Pillow
+PyMuPDF
+aiofiles
+anyio
